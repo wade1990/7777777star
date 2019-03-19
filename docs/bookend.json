@@ -1,0 +1,22 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "email",
+    "twitter",
+    "tumblr"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "Timeline"
+    },
+    
+    {
+      "type": "small",
+      "title": "리플럭스 블로그 개설을 환영합니다.",
+      "url": "https://reflux.link/stories/",
+      
+      "image": ""
+    }
+  ]
+}
