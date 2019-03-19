@@ -1,2 +1,1 @@
-# 7777777star
-__proxy__
+../@template/README.md
