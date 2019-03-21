@@ -51,9 +51,9 @@ mobileTitleImage:
   originalImage: 'https://blogimgs.pstatic.net/mobile/mobile_title08_l.jpg'
   croppedImage: 'https://blogimgs.pstatic.net/mobile/mobile_title08_l.jpg'
   previewImage: 'https://blogimgs.pstatic.net/mobile/mobile_title08_l.jpg'
-dayVisitorCount: 31
+dayVisitorCount: 10
 subscriberCount: 9
-totalVisitorCount: 589
+totalVisitorCount: 601
 block: false
 mylogBlock: false
 profileImagePath: ''
@@ -65,6 +65,6 @@ relationType: 4
 showReservationGuide: false
 deletedAt: null
 createdAt: 2019-03-17T12:15:29.146Z
-updatedAt: 2019-03-20T14:14:51.149Z
+updatedAt: 2019-03-21T04:34:38.016Z
 ---
 
