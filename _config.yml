@@ -1,44 +1,64 @@
 ---
-title: 킹에듀
-description: 킹에듀
 url: 'https://reflux.link'
-baseUrl: /7777777star
+baseurl: /7777777star
 language: ko
 timezone: Asia/Seoul
-permalink: '/:title'
+title: 킹에듀
+description: 킹에듀
+incremental: true
+destination: docs
 paginate: 20
 paginate_path: '/page/:num/'
-amp:
-  story:
-    layout: amp-story
-    collection: stories
-markdown: CommonMark
-commonmark:
-  options:
-    - SMART
-    - FOOTNOTES
-  extensions:
-    - strikethrough
-    - autolink
-    - table
-minify_html: false
-destination: ./docs
-incremental: true
+collections:
+  posts:
+    output: true
+    permalink: '/:title'
+  stories:
+    output: true
+    permalink: '/stories/:title'
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ''
+      type: stories
+    values:
+      layout: amp-story
 plugins:
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-github-metadata
   - jekyll-paginate
-  - jekyll-commonmark
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-redirect-from
+  - jekyll-avatar
+  - jemoji
+  - jekyll-mentions
   - jekyll-include-cache
-gem:
-  - amp-jekyll
+include:
+  - _reflux
+  - _amp
+  - .htaccess
 exclude:
-  - .jekyll-cache
-  - README.md
-  - LICENSE
+  - docs
   - CNAME
+  - LICENSE
+  - README.md
+  - .jekyll-cache
   - Gemfile
   - Gemfile.lock
-keep_files:
-  - assets
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 id: '54370843'
 blogNo: '54370843'
 blogId: 7777777star
@@ -54,9 +74,9 @@ mobileTitleImage:
   originalImage: 'https://blogimgs.pstatic.net/mobile/mobile_title08_l.jpg'
   croppedImage: 'https://blogimgs.pstatic.net/mobile/mobile_title08_l.jpg'
   previewImage: 'https://blogimgs.pstatic.net/mobile/mobile_title08_l.jpg'
-dayVisitorCount: 7
+dayVisitorCount: 0
 subscriberCount: 10
-totalVisitorCount: 642
+totalVisitorCount: 667
 block: false
 mylogBlock: false
 profileImagePath: ''
@@ -68,6 +88,6 @@ relationType: 4
 showReservationGuide: false
 deletedAt: null
 createdAt: 2019-03-17T12:15:29.146Z
-updatedAt: 2019-03-23T09:40:11.479Z
+updatedAt: 2019-03-24T16:23:55.597Z
 ---
 

@@ -1,6 +1,1 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://reflux.link/sitemap.xml
-
-Sitemap: https://reflux.link/sitemap@reflux.xml
+Sitemap: https://reflux.link/7777777star/sitemap.xml
