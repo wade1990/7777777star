@@ -3,8 +3,8 @@ url: 'https://reflux.link'
 baseurl: /7777777star
 language: ko
 timezone: Asia/Seoul
-title: 킹에듀
-description: 킹에듀
+title: 에듀킹
+description: 에듀킹
 incremental: true
 destination: docs
 paginate: 20
@@ -62,7 +62,7 @@ exclude:
 id: '54370843'
 blogNo: '54370843'
 blogId: 7777777star
-blogName: 킹에듀
+blogName: 에듀킹
 blogOwner: false
 displayNickName: 에듀킹(7777777star)
 bothNeighbor: false
@@ -74,9 +74,9 @@ mobileTitleImage:
   originalImage: 'https://blogimgs.pstatic.net/mobile/mobile_title08_l.jpg'
   croppedImage: 'https://blogimgs.pstatic.net/mobile/mobile_title08_l.jpg'
   previewImage: 'https://blogimgs.pstatic.net/mobile/mobile_title08_l.jpg'
-dayVisitorCount: 1
-subscriberCount: 18
-totalVisitorCount: 933
+dayVisitorCount: 8
+subscriberCount: 17
+totalVisitorCount: 1027
 block: false
 mylogBlock: false
 profileImagePath: ''
@@ -88,6 +88,6 @@ relationType: 4
 showReservationGuide: false
 deletedAt: null
 createdAt: 2019-03-17T12:15:29.146Z
-updatedAt: 2019-04-10T00:42:54.055Z
+updatedAt: 2019-04-16T09:12:15.595Z
 ---
 
