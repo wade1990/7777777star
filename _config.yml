@@ -5,7 +5,7 @@ language: ko
 timezone: Asia/Seoul
 title: 에듀킹
 description: 에듀킹
-incremental: true
+incremental: false
 destination: docs
 paginate: 20
 paginate_path: '/page/:num/'
@@ -74,9 +74,9 @@ mobileTitleImage:
   originalImage: 'https://blogimgs.pstatic.net/mobile/mobile_title08_l.jpg'
   croppedImage: 'https://blogimgs.pstatic.net/mobile/mobile_title08_l.jpg'
   previewImage: 'https://blogimgs.pstatic.net/mobile/mobile_title08_l.jpg'
-dayVisitorCount: 1
-subscriberCount: 26
-totalVisitorCount: 1267
+dayVisitorCount: 3
+subscriberCount: 27
+totalVisitorCount: 1279
 block: false
 mylogBlock: false
 profileImagePath: ''
@@ -88,6 +88,6 @@ relationType: 4
 showReservationGuide: false
 deletedAt: null
 createdAt: 2019-03-17T12:15:29.146Z
-updatedAt: 2019-05-08T00:18:23.088Z
+updatedAt: 2019-05-09T00:46:18.056Z
 ---
 
